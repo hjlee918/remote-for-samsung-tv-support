@@ -31,12 +31,11 @@ Please search [existing issues](../../issues) first.
 
 | Action | What it does |
 |---|---|
-| **Remote Button** | Any key of the TV's remote: arrows, OK, Back, Home, Exit, Settings, Tools, Info, Source, playback, channels, numbers, color buttons, subtitles and more. Can also type text into a search field, open a web page, or go to a channel by number. Optional **Hold** and **Double press** commands. |
+| **Remote Button** | Any key of the TV's remote: arrows, OK, Back, Home, Exit, Settings, Tools, Info, Source, playback, channels, numbers, color buttons, subtitles, the picture mode key and more. Can also type text into a search field, open a web page, or go to a channel by number. Optional **Hold** and **Double press** commands. |
 | **Power** | Power on / off, power on, power off, or the power key (Art Mode on The Frame). A green dot shows when the TV is on. |
 | **Volume** | Volume up or down (hold to repeat), mute, or a set level. The key shows the TV's volume when the TV reports it. |
 | **Open App** | Opens an app from the TV's list, optionally straight to a YouTube video. The key shows the app's icon, with a bar while it's on screen. |
 | **Input** | Switches to HDMI 1–4, the next input, or opens the TV's Source list. |
-| **Picture & Sound** | The next picture mode (on models with a picture mode key). Choosing a picture or sound mode by name is coming in a later version. |
 | **TV Dial** (Stream Deck +) | Volume, channels, navigation, playback, apps or inputs, with the volume or app shown on the touch strip. |
 
 ## Troubleshooting
