@@ -34,9 +34,9 @@ Please search [existing issues](../../issues) first.
 | **Remote Button** | Any key of the TV's remote: arrows, OK, Back, Home, Exit, Settings, Tools, Info, Source, playback, channels, numbers, color buttons, subtitles, the picture mode key and more. Can also type text into a search field, open a web page, or go to a channel by number. Optional **Hold** and **Double press** commands. |
 | **Power** | Power on / off, power on, power off, or the power key (Art Mode on The Frame). A green dot shows when the TV is on. |
 | **Volume** | Volume up or down (hold to repeat), mute, or a set level. The key shows the TV's volume when the TV reports it. |
-| **Open App** | Opens an app from the TV's list, optionally straight to a YouTube video. The key shows the app's icon, with a bar while it's on screen. |
+| **Open App** | Opens an app from the TV's list, or any other installed app by its app ID (choose **Other app (by its ID)…**), optionally straight to a YouTube video. The key shows the app's icon, with a bar while it's on screen. |
 | **Input** | Switches to HDMI 1–4, the next input, or opens the TV's Source list. |
-| **TV Dial** (Stream Deck +) | Volume, channels, navigation, playback, apps or inputs, with the volume or app shown on the touch strip. |
+| **TV Dial** (Stream Deck +) | Volume, channels, navigation, playback, apps or inputs. The touch strip shows the TV's name and volume, or the app or input being chosen. |
 
 ## Troubleshooting
 
@@ -45,6 +45,7 @@ Please search [existing issues](../../issues) first.
 - **Keys say "TV is off" while the TV is on:** the TV's IP address may have changed. The plugin looks for the TV again on its own; if that doesn't work, reserve a fixed IP address for the TV in your router, then click **Forget** and pair again.
 - **Power on doesn't work:** turn on **Power On with Mobile** in the TV's settings (see Setup). Some TVs can only be woken over a wired connection, or for a while after they were turned off.
 - **The volume level doesn't show:** the TV reports its volume while its own speakers are in use. With a soundbar or receiver, the volume keys still work but the level isn't known.
+- **An app isn't in the Open App list:** choose **Other app (by its ID)…** and enter the app's ID. The app must be installed on the TV. If the key shows the ID instead of the app's name, the TV doesn't list that ID; check it.
 - **HDMI 1–4 keys don't switch input:** not every model has direct HDMI keys. Use **Source** or **Next input** instead.
 - **The Frame:** **Power off** turns the TV off fully; the **Power key** switches Art Mode on and off.
 - **Windows asks whether to allow network access:** choose **Allow** so the plugin can find and control your TV on your local network.
